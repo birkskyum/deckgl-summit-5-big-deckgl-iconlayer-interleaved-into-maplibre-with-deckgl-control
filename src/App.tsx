@@ -3,8 +3,6 @@ import { DeckGLControl } from './DeckGL_Control';
 import { loadPoints } from './LoadSampleData';
 import { MapLibre } from './MapLibre';
 
-export const MapTilerAPIKey = '';
-
 export const [getViewState, setViewState] = createSignal({
   longitude: 11,
   latitude: 56,

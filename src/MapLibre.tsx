@@ -2,9 +2,10 @@ import { onMount, Component, on, createEffect } from 'solid-js';
 import maplibregl, { Map } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { css } from 'solid-styled-components';
-import { getViewState, MapTilerAPIKey } from './App';
+import { getViewState } from './App';
 import { DeckGL_IconLayer } from './DeckGL_IconLayer';
 import { getPoints } from './LoadSampleData';
+import { MapTilerAPIKey } from './MapTilerAPIKey';
 
 export const MapLibre: Component = () => {
   let maplibreContainer: HTMLElement;
